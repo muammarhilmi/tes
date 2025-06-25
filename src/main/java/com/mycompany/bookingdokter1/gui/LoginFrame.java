@@ -32,6 +32,8 @@ public class LoginFrame extends JFrame {
         
         initComponents();
         setupLayout();
+        
+        setVisible(true);
     }
     
     private void initComponents() {
