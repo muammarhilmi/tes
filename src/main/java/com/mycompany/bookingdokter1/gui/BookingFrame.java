@@ -23,6 +23,8 @@ public class BookingFrame extends JDialog {  // Changed from JFrame to JDialog
         
         initComponents();
         setupLayout();
+        
+        setVisible(true);
     }
     
     private void initComponents() {

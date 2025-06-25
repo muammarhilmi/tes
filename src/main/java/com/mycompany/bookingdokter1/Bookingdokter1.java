@@ -4,7 +4,7 @@
 
 package com.mycompany.bookingdokter1;
 
-import com.mycompany.bookingdokter1.gui.LoginFrame2;
+import com.mycompany.bookingdokter1.gui.LoginFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -23,7 +23,7 @@ public class Bookingdokter1 {
 //        LoginFrame.main(args);
         
         SwingUtilities.invokeLater(() -> {
-            new LoginFrame2();
+            new LoginFrame();
         });
     }
 }
